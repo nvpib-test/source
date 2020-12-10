@@ -38,6 +38,16 @@
     <script src="/scripts/iframeResizer.contentWindow.min.js" type="text/javascript"></script>
 
     <script>
+
+    function HideTopbarPlugin() {
+      // this plugin overrides the Topbar component to return nothing
+      return {
+        components: {
+          Topbar: function() { return null }
+        }
+      }
+    }
+
     window.onload = function() {
       // Begin Swagger UI call region
       const ui = SwaggerUIBundle({
@@ -49,9 +59,12 @@
           SwaggerUIStandalonePreset
         ],
         plugins: [
-          SwaggerUIBundle.plugins.DownloadUrl
+          SwaggerUIBundle.plugins.DownloadUrl,
+          HideTopbarPlugin
         ],
-        layout: "StandaloneLayout"
+        layout: "StandaloneLayout",
+        defaultModelExpandDepth: 3,
+        defaultModelsExpandDepth: 3
       })
       // End Swagger UI call region
 
