@@ -53,7 +53,7 @@ The WFS service is available at
 * [Download OpenAPI specification](https://raw.githubusercontent.com/greentechdev/greentechdev.github.io/master/n2000_api.yaml)
 * [Improve this specification](https://github.com/greentechdev/greentechdev.github.io/edit/master/n2000_api.yaml)
 
-{{< openapi url="url=https://raw.githubusercontent.com/greentechdev/greentechdev.github.io/master/n2000_api.yaml" >}}
+{{< openapi url="https://raw.githubusercontent.com/greentechdev/greentechdev.github.io/master/n2000_api.yaml" >}}
 
 ## Example usage
 
