@@ -60,7 +60,7 @@ The API provides two means of filtering of data: attribute based (using the 'whe
 * [Download OpenAPI specification](https://raw.githubusercontent.com/greentechdev/greentechdev.github.io/master/outdoorlife_api.yaml)
 * [Improve this specification](https://github.com/greentechdev/greentechdev.github.io/edit/master/outdoorlife_api.yaml)
 
-{{< swagger-ui url="https://petstore.swagger.io/?url=https://raw.githubusercontent.com/greentechdev/greentechdev.github.io/master/outdoorlife_api.yaml" height="1000" >}}
+{{< openapi url="https://petstore.swagger.io/?url=https://raw.githubusercontent.com/greentechdev/greentechdev.github.io/master/outdoorlife_api.yaml" >}}
 
 ## Example usage
 
